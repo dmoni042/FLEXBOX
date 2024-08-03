@@ -1,0 +1,43 @@
+.flexcontainer{
+       display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    justify-content: flex-start; 
+    background-color: blue;
+    padding: 5px;
+
+}
+.flexcontainer div{
+border: 2px solid;
+padding: 50px;
+background-color: rgb(235, 213, 19);
+margin: 20px;
+border:  15px solid;
+border-color: green red;
+font-size: 20px;
+border-radius: 80px;
+}
+
+.header{
+    text-align: center;
+}
+
+
+.triangle {
+    margin-left: 47%;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid green;
+}
+
+.tri{
+    width: 0;
+    height: 0;
+    border: 5px solid yellow;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    border-bottom: 50px solid;
+}
+
